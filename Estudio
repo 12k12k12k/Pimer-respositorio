@@ -1,0 +1,14 @@
+// crear un Algoritmo que reciba un numero ingresado por el ususario
+// verificar que el numero ingresado por el usuario sea par o impar (utlizando el operador MOD)
+// Mostrar con un mensaje por consola si el numero es par o impar
+
+Algoritmo ejercicio1
+	Definir num Como Entero
+	Escribir 'ingrese un numero'
+	Leer num
+	Si num MOD 2==0 Entonces
+		Escribir 'el numero', num, 'es par'
+	SiNo
+		Escribir 'el numero', num, 'es impar'
+	FinSi
+FinAlgoritmo
