@@ -1,0 +1,16 @@
+Algoritmo diez
+	//Diseñar un programa que calcule la longitud de una circunferencia y el área. El usuario debe ingresar el radio.
+	
+	Definir long, area, radio Como Real;
+	Escribir  "ingrese el radio de la circunferencia";
+	
+	Leer radio;
+	
+	Long = 2*PI*radio;
+	area = PI * radio*radio;
+	
+	Escribir "la longitud de la circunferencia es:",Long
+	Escribir "el area del circulo es:", area;
+	
+	
+FinAlgoritmo
